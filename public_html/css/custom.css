@@ -1,66 +1,70 @@
-.container {
-    width: 1800px !important;
+.container{
+    width:1800px!important;
 
 }
 
-body {
+body{
     cursor: default;
     background-color: #f0faff;
 }
-
 .popover {
-    max-width: 450px;
+    max-width:	450px;
 }
+.footer{ text-align:center;}
 
-.footer {
-    text-align: center;
-}
-
-#refresh {
-    color: white;
-    min-width: 34px;
-    text-align: center;
-    display: block;
+#refresh{
+    color:		white;
+    min-width:	34px;
+    text-align:	center;
+    display:block;
     float: right;
 }
 
-.span6 {
-    min-height: 146px;
+.span6{
+    min-height:146px;
     border: 1px solid #ddd;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    margin-left: 28px !important;
-    border-top: 0;
+    margin-left: 28px!important;
+    border-top:0;
     margin-bottom: 28px;
     background-color: #fff9e6;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
 }
-
-.nav > li > a, .brand {
-    color: #eee !important;
+.span4{
+    min-height:146px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 28px;
+    background-color: #fff9e6;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.nav>li>a,.brand {
+    color: #eee!important;
 }
 
 element.style {
 }
-
-.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
     color: #fff;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00a0e9), to(#00a0e9));
-    background-image: -webkit-linear-gradient(top, #00a0e9, #00a0e9);
-    background-image: -o-linear-gradient(top, #00a0e9, #00a0e9);
-    background-image: linear-gradient(to bottom, #00a0e9, #00a0e9);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#00a0e9),to(#00a0e9));
+    background-image: -webkit-linear-gradient(top,#00a0e9,#00a0e9);
+    background-image: -o-linear-gradient(top,#00a0e9,#00a0e9);
+    background-image: linear-gradient(to bottom,#00a0e9,#00a0e9);
     background-repeat: repeat-x;
-    background-color: #00a0e9 !important;
+    background-color: #00a0e9!important;
 }
-
-.navbar-inner {
-    background-color: #00a0e9 !important;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00a0e9), to(#00a0e9)) !important;
-    background-image: -webkit-linear-gradient(top, #00a0e9, #00a0e9) !important;
-    background-image: -o-linear-gradient(top, #00a0e9, #00a0e9) !important;
-    background-image: linear-gradient(to bottom, #00a0e9, #00a0e9) !important;
+.navbar-inner{
+    background-color: #00a0e9!important;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#00a0e9),to(#00a0e9))!important;
+    background-image: -webkit-linear-gradient(top,#00a0e9,#00a0e9)!important;
+    background-image: -o-linear-gradient(top,#00a0e9,#00a0e9)!important;
+    background-image: linear-gradient(to bottom,#00a0e9,#00a0e9)!important;
     background-repeat: repeat-x;
-    border-color: #0080ba !important;
+    border-color: #0080ba!important;
 }
 
 .actions a:not(:last-child) {
@@ -71,17 +75,16 @@ element.style {
     display: flex;
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1800px){
     .container {
     }
-
     .span4 {
         width: 545px;
     }
 }
 
 
-@media (min-width: 980px) {
+@media (min-width: 980px){
     body {
         padding-top: 60px;
     }
@@ -90,27 +93,21 @@ element.style {
 .icon-red {
     background-image: url("../img/glyphicons-halflings-red.png") !important;
 }
-
 .icon-purple {
     background-image: url("../img/glyphicons-halflings-purple.png") !important;
 }
-
 .icon-blue {
     background-image: url("../img/glyphicons-halflings-blue.png") !important;
 }
-
 .icon-lightblue {
     background-image: url("../img/glyphicons-halflings-lightblue.png") !important;
 }
-
 .icon-green {
     background-image: url("../img/glyphicons-halflings-green.png") !important;
 }
-
 .icon-yellow {
     background-image: url("../img/glyphicons-halflings-yellow.png") !important;
 }
-
 .icon-orange {
     background-image: url("../img/glyphicons-halflings-orange.png") !important;
 }
